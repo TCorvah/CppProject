@@ -1,0 +1,94 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+Standard: Latest
+UseTab: Never
+
+AlignAfterOpenBracket: true
+AlignTrailingComments:
+  AlignPPAndNotPP: true
+  Kind: Always
+
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLambdasOnASingleLine: All
+
+AlwaysBreakBeforeMultilineStrings: false
+
+BitFieldColonSpacing: Both
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: false
+  AfterControlStatement: true
+  AfterEnum: false
+  AfterExternBlock: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: true
+  IndentBraces: false
+
+BreakAdjacentStringLiterals: true
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+BreakTemplateDeclarations: MultiLine
+
+ColumnLimit: 80
+FixNamespaceComments: true
+MaxEmptyLinesToKeep: 1
+
+IncludeBlocks: Regroup
+SortIncludes:
+  Enabled: true
+IncludeCategories:
+  - Regex: '^"(lexer|parser|driver)\.h"$'
+    Priority: 1
+  - Regex: '^"'
+    Priority: 2
+  - Regex: '^<'
+    Priority: 3
+
+IndentExternBlock: AfterExternBlock
+IndentWidth: 2
+
+InsertNewlineAtEOF: true
+
+KeepEmptyLines:
+  AtEndOfFile: true
+  AtStartOfBlock: true
+  AtStartOfFile: true
+
+LineEnding: LF
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+ReflowComments: Always
+
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+
+SpacesInAngles: Never
+SpacesInContainerLiterals: true
+SpacesInParens: Never
+SpacesInSquareBrackets: false
+
+NumericLiteralCase:
+  ExponentLetter: Leave
+  HexDigit: Leave
+  Prefix: Leave
+  Suffix: Leave
+...
+

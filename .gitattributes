@@ -1,0 +1,20 @@
+# Normalize line endings
+* text=auto
+
+# C++ source files get proper diffs
+*.cpp diff=cpp
+*.hpp diff=cpp
+*.h   diff=cpp
+*.cc  diff=cpp
+*.cxx diff=cpp
+
+# Treat common binary formats correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Keep CMake scripts as text
+*.cmake text
+CMakeLists.txt text

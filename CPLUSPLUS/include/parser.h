@@ -28,5 +28,5 @@ namespace Parser{
     private:
         Tokenizer& token;
     };
-    
-}//namespace Parser
+
+    } // namespace Parser

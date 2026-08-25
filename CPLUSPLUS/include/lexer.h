@@ -17,7 +17,6 @@
  * 
  */
 namespace Lexer {
-
     /**
      * @brief Enumerates all terminal symbols recognized by the lexer.
      *

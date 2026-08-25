@@ -18,9 +18,9 @@
  */
 namespace Parser{
     using namespace Lexer;
-    class ParserSyntax{
+    class SyntaxAnalyzer{
     public:
-        ParserSyntax(Tokenizer& tokenizer) : token(tokenizer) {}
+        SyntaxAnalyzer(Tokenizer& tokenizer) : token(tokenizer) {}
         double parseExpression(bool);
         double parseTerm(bool);
         double parseFactor(bool);
